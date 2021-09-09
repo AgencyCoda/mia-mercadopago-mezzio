@@ -11,6 +11,7 @@ declare(strict_types=1);
 namespace Mia\Mercadopago;
 
 use Mia\Mercadopago\Factory\MercadopagoHelperFactory;
+use Mia\Mercadopago\Helper\MercadopagoHelper;
 use Mia\Paypal\Factory\PaypalHelperFactory;
 
 class ConfigProvider

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mia\Mercadopago;
+namespace Mia\Mercadopago\Helper;
 
 use GuzzleHttp\Psr7\Request;
 

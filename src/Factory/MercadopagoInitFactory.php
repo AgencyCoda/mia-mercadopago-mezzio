@@ -2,7 +2,7 @@
 
 namespace Mia\Mercadopago\Factory;
 
-use Mia\Mercadopago\MercadopagoHelper;
+use Mia\Mercadopago\Helper\MercadopagoHelper;
 use Psr\Container\ContainerInterface;
 
 class MercadopagoInitFactory
