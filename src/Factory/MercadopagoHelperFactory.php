@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Mia\Mercadopago\Factory;
 
-use Mia\Mercadopago\MercadopagoHelper;
+use Mia\Mercadopago\Helper\MercadopagoHelper;
 use Psr\Container\ContainerInterface;
 
 class MercadopagoHelperFactory 
