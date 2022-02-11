@@ -57,7 +57,7 @@ class MercadopagoHelper
      * @param [type] $accessToken
      * @param [type] $items
      * @param integer $fee
-     * @return void
+     * @return object
      */
     public function createSellerPreference($accessToken, $payerEmail, $items, $fee = 0, $notificationUrl = '')
     {
@@ -112,7 +112,7 @@ class MercadopagoHelper
      *
      * @param string $code
      * @param string $redirectUrl
-     * @return void
+     * @return object
      */
     public function validateAuthorizationCode($code, $redirectUrl)
     {
@@ -146,7 +146,7 @@ class MercadopagoHelper
      *     }
      *
      * @param string $refreshToken
-     * @return void
+     * @return object
      */
     public function refreshAccessToken($refreshToken)
     {
