@@ -11,8 +11,9 @@ declare(strict_types=1);
 namespace Mia\Mercadopago;
 
 use Mia\Mercadopago\Factory\MercadopagoHelperFactory;
+use Mia\Mercadopago\Factory\MercadopagoInitFactory;
+use Mia\Mercadopago\Handler\GenerateAuthUrlHandler;
 use Mia\Mercadopago\Helper\MercadopagoHelper;
-use Mia\Paypal\Factory\PaypalHelperFactory;
 
 class ConfigProvider
 {
@@ -34,6 +35,7 @@ class ConfigProvider
         return [
             'factories' => [
                 MercadopagoHelper::class => MercadopagoHelperFactory::class,
+                GenerateAuthUrlHandler::class => MercadopagoInitFactory::class,
                 //PaymentHandler::class => PaymentHandlerFactory::class,
             ],
         ];
