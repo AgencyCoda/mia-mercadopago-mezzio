@@ -167,4 +167,14 @@ class MercadopagoHelper
 
         return null;
     }
+
+    public function getClientId()
+    {
+        return $this->clientId;
+    }
+
+    public function getClientSecret()
+    {
+        return $this->clientSecret;
+    }
 }
