@@ -37,7 +37,7 @@ class MercadopagoHelper
         $this->clientId = $client_id;
         $this->clientSecret = $client_secret;
         $this->guzzle = new \GuzzleHttp\Client();
-        \MercadoPago\SDK::setAccessToken($client_secret);
+        //\MercadoPago\SDK::setAccessToken($client_secret);
     }
     /**
      * Example JSON Sended:
