@@ -121,6 +121,7 @@ class MercadopagoHelper
                 'Accept' => 'application/json'
             ],
             'form_params' => [
+                'client_id' => $this->clientId,
                 'client_secret' => $this->clientSecret,
                 'grant_type' => 'authorization_code',
                 'code' => $code,
@@ -155,6 +156,7 @@ class MercadopagoHelper
                 'Accept' => 'application/json'
             ],
             'form_params' => [
+                'client_id' => $this->clientId,
                 'client_secret' => $this->clientSecret,
                 'grant_type' => 'refresh_token',
                 'refresh_token' => $refreshToken
